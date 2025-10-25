@@ -25,7 +25,7 @@ int main(){
         a[i][c2] = temp;
     }
     
-printf("Resultant matrix:\n");
+    printf("Resultant matrix:\n");
     for (i = 0; i < m; i++) {
         for (j = 0; j < n; j++) {
             printf("%d ", a[i][j]);
